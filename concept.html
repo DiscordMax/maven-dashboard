@@ -1012,7 +1012,13 @@ td {
 		  
 		  		  <section id="test2" class="sepNav">		  
 		  		  <h1 class="CommandHeader" id="screen">Testing 2 For The Thing screen <a class="CommandLink" href="#screen" title="Direct link to heading">#</a></h1>
-		  
+		  			<select multiple="multiple" id="myMulti">
+  <option>CSS</option>
+  <option>SCRIPT</option>
+  <option>COM</option>
+  <option>jQuery</option>
+  <option>HTML5</option>
+</select>
 				  <p class="CommandP">HHHHHH</p><p class="CommandP">HHHHHH</p><p class="CommandP">HHHHHH</p><p class="CommandP">HHHHHH</p><p class="CommandP">HHHHHH</p><p class="CommandP">HHHHHH</p><p class="CommandP">HHHHHH</p><p class="CommandP">HHHHHH</p><p class="CommandP">HHHHHH</p><p class="CommandP">HHHHHH</p><p class="CommandP">HHHHHH</p><p class="CommandP">HHHHHH</p>		  
 		  		</section>			  
 			</div>
@@ -1776,6 +1782,13 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+var myDrop = new drop({
+    selector:  '#myMulti'
+});
+var myDrop = new drop({
+    selector:  '#myMulti'
+    preselected: [0, 2]
+});	
 </script>
 
 	<!-- END OF PAGE -->
